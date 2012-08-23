@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>SMS</title>
+<link rel="icon" href="images/favicon.gif" type="image/x-icon"/>
+ <!--[if lt IE 9]>
+ <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+ <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+
+  <![endif]-->
+<link rel="shortcut icon" href="images/favicon.gif" type="image/x-icon"/> 
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="js/jquery.jcarousel.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/skins/tango/skin.css"/>
+<!-- include Cycle plugin -->
+<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$("nav ul li").hover(function(){
+		$(".subitem",this).show();
+	},function(){
+		$(".subitem",this).hide();
+	});
+	
+	$("#carousel").jcarousel();
+	
+	$('#slides').cycle({
+		fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+	});
+	
+	$('.fancybox').fancybox();
+	
+});
+</script>
+
+<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.0.6" media="screen" />
+	
+	
+</head>
+<body class="logistics">
+
+    <!--start container-->
+    <div id="container">
+    <!--start header-->
+    <header>
+		<div class="container">
+			<div class="logo"><img src="images/logo.png" alt="SMS" /></div>
+			<div class="links">
+				<ul>
+					<li><p><a href="company.html">Company</a> |</p></p></li>
+					<li><p><a href="contact.html">Contact</a></p></p></li>
+				</ul>
+			</div>
+		</div>
+      <!--end header-->
+	</header>
+	
+	<div id="navigation">
+	<nav>
+		<ul id="menu">
+			<li><a href="index.html"><span class="parent">Home</span></a>
+			</li>
+			<li><a href="profile.html"><span class="parent">Profile</span></a>
+		
+			</li>
+			
+			<li><a href="philosophy.html"><span class="parent">Our Philosophy</span></a>
+				
+			</li>
+			
+			<li><a href="productsandservices.html"><span class="parent">Products & Services</span></a>
+				<div class="subitem"><a href="airfreight.html"><span>Air Freight</span></a></div>
+				<div class="subitem"><a href="seafreight.html"><span>Sea Freight</span></a></div>
+				<div class="subitem"><a href="roadfreight.html"><span>Road Freight</span></a></div>
+				<div class="subitem"><a href="contractlogistics.html"><span>Contract Logistics</span></a></div>
+				<div class="subitem"><a href="projectlogistics.html"><span>Project Logistics</span></a></div>
+				<div class="subitem"><a href="eventlogistics.html"><span class="curved">Event Logistics</span></a></div>
+			</li>
+			
+			<li class="active"><a href="industries.html"><span class="parent">Industries</span></a>
+				
+			</li>
+			<li class="last"><a href="specialcargo.html"><span class="parent">Special Cargo</span></a>
+				
+			</li>
+		</ul>
+	</nav>
+	</div>
+   
+   
+   <!--start holder-->
+   <div class="holder_content">
+     
+	 <div class="box_container">
+		<div class="box">
+			<h1 class="bold">Industries</h1>
+			<p>
+			At SMS we have extensive airfreight experience with special cargo. Having only the best 
+			qualified staff in the industry all shipments are handled according to the IATA regulations 
+			to ensure your cargo reaches the destination safely and in a timely manner.
+			</p>
+			<br/>
+			<h1 class="bold">Automotive</h1>
+			<p>
+			The logistics challenge for the automotive manufacturing industry is to reduce the enormous volume of parts inventory to minimum levels while ensuring that no shortage occurs for any single part. This is a very difficult challenge considering the enormous number of parts required, as well as the fact that many of these parts are sourced from various suppliers spread out globally.
+<br/><br/>
+At SMS Logistics we are capable of providing a range of solutions to meet these challenges while considering each customer's specific business requirements.
+
+</p>
+<br/>
+		<h1 class="bold">Retail</h1>
+		<p>
+		SMS Logistics is in a position to offer services for many types of retailers, including designer and high street fashion, electronics, as well as supermarkets. SMS Logistics has the depth of knowledge and breadth of services to ensure that consumer demand is met, wherever and whenever it exists.
+<br/><br/>
+With national network coverage SMS Logistics is capable to manage home delivery solutions which are focused on helping retailers service phone and internet-based retailing. Our aim is to fulfil our customers promise to their customers by providing a high quality and cost efficient home delivery service. 
+
+</p>
+<br/>
+	<h1 class="bold">Consumer Electronics</h1>
+	<p>
+	SMS Logistics offers a total package of supply chain services developed in line with the specific needs of consumer electronics companies.
+Services range from, importation, storage and Customs Clearance, through to delivery to the end user.
+</p>
+	<br/>
+	<h1 class="bold">Healthcare</h1>
+	<p>
+	SMS Logistics has in-depth experience throughout the healthcare supply chain from the delivery of raw materials into the manufacturing process, to the delivery of finished drugs, be it by air, road, or sea.
+<br/><br/>
+Through our skilled staff and extensive know-how SMS Logistics is capable to support the entire healthcare supply chain.
+</p>
+		</div>
+	 </div>
+		 
+		 
+		 
+			 
+
+		 
+   </div>
+   <!--end holder-->
+   </div>
+   <!--end container-->
+   <!--start footer-->
+   <footer>
+		<div class="container">
+			<div class="address">
+				27 Birkirkara Hill, St Julian's<br/>
+				STJ1143, Malta<br/>
+				+356 2577 0000<br/>
+				info@sms.com.mt<br/>
+				www.sms.com.mt<br/>
+			</div>
+			
+			<div class="motto">
+				Committed to Quality
+			</div>
+			
+			<div class="logo">
+				<img src="images/logosmall.png" />
+			</div>
+		</div>
+   </footer>
+   <!--end footer-->
+
+  </body>
+</html>

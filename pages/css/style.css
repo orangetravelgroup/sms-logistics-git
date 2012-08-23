@@ -1,0 +1,222 @@
+/**************************
+*   Main Style
+***************************/
+
+body {font-family:arial,helvetica,sans-serif; font-size:0.8em; text-align:center; background:url(../images/bg.jpg);}
+a{text-decoration:none}
+a:hover {text-decoration:underline;}
+
+.blue {color:#09aeed;}
+.black {color:#212121;}
+
+#container {}
+
+.website {margin-top:15px;}
+.website a {color:#212121;}
+.clear {clear:both;}
+/**************************
+*   Header
+***************************/
+
+header {
+	position:relative;
+	width:100%;
+	height:88px;
+	border-top:4px solid #24739f;
+	background:#09aeed;
+-webkit-box-shadow: 0px 3px 4px 2px #9d9d9d;
+box-shadow: 0px 3px 4px 2px #9d9d9d;
+filter: progid:DXImageTransform.Microsoft.Shadow(color='#9d9d9d', Direction=145, Strength=3);
+z-index:99;
+}
+
+header .container {
+	margin:0 auto;
+	text-align:left;
+	width:1024px; 
+	position:relative;
+}
+
+header .logo {padding-top:15px}
+header .links {position:absolute; right:0;  top:60px; text-align:right;}
+header .links ul li {float:left; padding-left:5px;}
+header .links ul li a,header .links ul li {color:white}
+
+/**************************
+*   Menu Bar
+***************************/
+
+nav {width:1024px; margin:0 auto; text-align:left; z-index:98; position:relative;}
+nav  span {width:169px; text-align:center; padding:18px 0 15px 0; background:#dedede;display:block; cursor:pointer; }
+nav  span.twolines {padding:12px 0 6px 0;}
+nav ul li a {color:#4a4a4a;}
+nav ul li a:hover {text-decoration:none; color:#2d2d2d}
+nav  span:hover {background:#b6b6b6; }
+nav ul li.last {width:174px}
+
+nav ul li.last span {width:174px}
+
+nav ul li.active,nav ul li.active span.parent {background:#b6b6b6}
+nav ul li {width:169px; height:50px; background:#dedede; float:left; margin-right:1px;}
+nav ul li ul {position:relative; }
+nav .subitem{display:none;}
+
+nav ul li, nav li span.parent,nav li span.curved {	-webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px; 
+}
+nav ul li:hover, nav li span.parent:hover {
+-webkit-border-bottom-right-radius: 0px;
+-webkit-border-bottom-left-radius: 0px;
+-moz-border-radius-bottomright: 0px;
+-moz-border-radius-bottomleft: 0px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+}
+
+/**************************
+*   Content
+***************************/
+
+.holder_content {
+	clear:both;
+	width:1024px;
+	margin:0 auto;
+	text-align:left;
+	margin-top:80px;
+	}
+	
+.box_container {
+	background:white; position:relative; margin-bottom:50px;
+
+        -webkit-box-shadow:  0px 0px 2px 1px rgba(100, 100, 100, 0.5);
+        
+        box-shadow:  0px 0px 2px 1px rgba(100, 100, 100, 0.5);
+        filter: progid:DXImageTransform.Microsoft.Shadow(color='#9d9d9d', Direction=120, Strength=3);
+
+}
+
+.box {padding:50px 70px; color:#727070;}
+
+.clear {clear:both;}
+h1 {color:#727070; font-size:1.6em; margin-bottom:10px;}
+h1.bold {font-size:1.8em; color:#09aeed;}
+.cover_image {margin-top:30px; position:relative; height:526px; }
+.cover_image img{border-top:4px solid #2e7aa4}
+.cover_image p {
+	position:absolute;
+	top:80px; 
+	left:0;
+	width:350px;
+	z-index:99;
+	background:url(../images/trans.png);
+	color:white;
+	font-size:1.2em;
+	padding:40px 40px;
+}
+
+.bigger_text {line-height:1.8em;}
+
+.press_releases {width:350px;  float:right; background:#09aeed; margin-left:30px; color:white;}
+.press_releases .container {padding:15px;}
+.press_releases h1 {background:white; color:#09aeed; text-align:center; padding:4px 0; margin:0}
+
+.press_releases a.title {font-weight:bold; margin-bottom:3px; color:white;}
+.press_releases a {color:white;}
+.press_releases .item {border-bottom:2px solid white; padding:15px 0;}
+.press_releases .item.last {border:none;}
+
+
+.box p {line-height:1.6em}
+
+/**************************
+*   About page
+***************************/ 
+.directors img {float:left; padding-right:70px}
+.directors h2 { font-size:0.8em; position:relative; top:-10px; left:1px;}
+.directors a {color:#09aeed}
+/**************************
+*   Contact page
+***************************/
+.contact_box { width:314px; margin-right:40px; float:left; height:250px;}
+.last {margin-right:0;}
+.contact_box h1 {font-size:1.2em}
+.contact_box a {color:#5d5d5d}
+.tel {font-style:oblique; margin:10px 0;}
+/**************************
+*   Sub Page Text Area
+***************************/
+#textarea {width:500px; height:500px; background:white; border-top:4px solid #2e7aa4; position:absolute; top:200px; right:-1px; font-size:1.2em; line-height:1.6em;}
+#textarea .container {padding:20px;}
+
+#pictures_left {width:400px; margin-top:5px;}
+#pictures_left img {float:left; padding:0 7px 7px 0}
+/**************************
+*   Carousel
+***************************/
+#carouselcontainer {position:relative; left:-40px;}
+
+
+/**************************
+*   Footer
+***************************/
+
+footer {
+	height:116px;
+	color: white;
+	background:#09aeed;
+	margin-bottom:35px;
+}
+
+footer .container {
+	width:1024px;
+	text-align:left; 
+	margin:0 auto;
+	padding-top:17px;
+}
+
+footer .address, footer .motto, footer .logo {
+	float:left;
+	width:33%;
+}
+footer .motto {
+	text-align:center;
+	padding-top:30px;
+}
+footer .logo {
+	text-align:right;
+	padding-top:20px;
+}
+
+
+/**************************
+*   ISO
+***************************/ 
+ol{list-style-type:decimal; font-size:1.2em; font-weight:bold; color:#09aeed; padding-left:20px;}
+ol p {padding-bottom:20px; font-size:0.8em; color:black; font-weight:normal;}
+
+/**************************
+*   Logistics
+***************************/ 
+ol{list-style-type:decimal; font-size:1.2em; font-weight:bold; color:#09aeed; padding-left:20px; margin:20px 0;}
+ol p {padding-bottom:5px; font-size:0.8em; color:black; font-weight:normal;}
+
+/**************************
+*  Portfolio
+***************************/
+.portfolio {
+	overflow:auto;
+	
+}
+
+.portfolio ul li {
+	display:block;
+	width:150px;
+	height:150px;
+	margin:0 15px 15px 0;
+	border:1px solid #AAA;
+	float:left;
+}

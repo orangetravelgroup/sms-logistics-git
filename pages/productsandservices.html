@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>SMS</title>
+<link rel="icon" href="images/favicon.gif" type="image/x-icon"/>
+ <!--[if lt IE 9]>
+ <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+ <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+
+  <![endif]-->
+<link rel="shortcut icon" href="images/favicon.gif" type="image/x-icon"/> 
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="js/jquery.jcarousel.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/skins/tango/skin.css"/>
+<!-- include Cycle plugin -->
+<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$("nav ul li").hover(function(){
+		$(".subitem",this).show();
+	},function(){
+		$(".subitem",this).hide();
+	});
+	
+	$("#carousel").jcarousel();
+	
+	$('#slides').cycle({
+		fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+	});
+	
+	$('.fancybox').fancybox();
+	
+});
+</script>
+
+<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.0.6" media="screen" />
+	
+	
+</head>
+<body>
+
+    <!--start container-->
+    <div id="container">
+    <!--start header-->
+    <header>
+		<div class="container">
+			<div class="logo"><img src="images/logo.png" alt="SMS" /></div>
+			<div class="links">
+				<ul>
+					<li><a href="company.html">Company</a> |</li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+      <!--end header-->
+	</header>
+	
+	<div id="navigation">
+	<nav>
+		<ul id="menu">
+			<li><a href="index.html"><span class="parent">Home</span></a>
+			</li>
+			<li><a href="profile.html"><span class="parent">Profile</span></a>
+		
+			</li>
+			
+			<li><a href="philosophy.html"><span class="parent">Our Philosophy</span></a>
+				
+			</li>
+			
+			<li class="active"><a href="productsandservices.html"><span class="parent">Products & Services</span></a>
+				<div class="subitem"><a href="airfreight.html"><span>Air Freight</span></a></div>
+				<div class="subitem"><a href="seafreight.html"><span>Sea Freight</span></a></div>
+				<div class="subitem"><a href="roadfreight.html"><span>Road Freight</span></a></div>
+				<div class="subitem"><a href="contractlogistics.html"><span>Contract Logistics</span></a></div>
+				<div class="subitem"><a href="projectlogistics.html"><span>Project Logistics</span></a></div>
+				<div class="subitem"><a href="eventlogistics.html"><span class="curved">Event Logistics</span></a></div>
+			</li>
+			
+			<li><a href="industries.html"><span class="parent">Industries</span></a>
+
+			</li>
+			<li class="last"><a href="specialcargo.html"><span class="parent">Special Cargo</span></a>
+	
+			</li>
+		</ul>
+	</nav>
+	</div>
+   
+   
+   <!--start holder-->
+   <div class="holder_content">
+     
+	 <div class="box_container">
+		<div class="box">
+			<h1 class="bold">Producst & Services</h1>
+			<p>
+			SMS Logistics offers a comprehensive and customized package be it airfreight, road freight, or sea freight, or even a combination of either services.
+<br/><br/>
+At SMS Logistics, we know that reliability and speed are essential to you, which is why we offer premium services and an extensive route network. Our highly skilled employees ensure each detail of your shipment is supervised so that it arrives safely and as quickly as possible.
+<br/><br/>
+We have the ability and expertise to move your freight by which ever means that suits you best, at any time, to and from any destination worldwide, providing a flexible approach and personalized service.
+<br/><br/>
+Our team will plan and manage any time sensitive project you may be planning in a professional and cost saving manner, and will assist you with all the types of forwarding projects that require special attention.
+<br/><br/>
+We manage the full range of forwarding services in terms of freight types, locations, and consignment sizes. Whatever the size or type of consignment you are assured expert handling by professionals with many years of hands-on experience.
+<br/><br/>
+Our ever-expanding array of customized services through our network of agents means that SMS Logistics has the logistics solution to meet our customers’ requirements.
+</p>
+<br/>
+		
+		</div>
+	 </div>
+		 
+   </div>
+   <!--end holder-->
+   </div>
+   <!--end container-->
+   <!--start footer-->
+   <footer>
+		<div class="container">
+			<div class="address">
+				27 Birkirkara Hill, St Julian's<br/>
+				STJ1143, Malta<br/>
+				+356 2577 0000<br/>
+				info@sms.com.mt<br/>
+				www.sms.com.mt<br/>
+			</div>
+			
+			<div class="motto">
+				Committed to Quality
+			</div>
+			
+			<div class="logo">
+				<img src="images/logosmall.png" />
+			</div>
+		</div>
+   </footer>
+   <!--end footer-->
+
+  </body>
+</html>

@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>SMS</title>
+<link rel="icon" href="images/favicon.gif" type="image/x-icon"/>
+ <!--[if lt IE 9]>
+ <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+ <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+
+  <![endif]-->
+<link rel="shortcut icon" href="images/favicon.gif" type="image/x-icon"/> 
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="js/jquery.jcarousel.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/skins/tango/skin.css"/>
+<!-- include Cycle plugin -->
+<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$("nav ul li").hover(function(){
+		$(".subitem",this).show();
+	},function(){
+		$(".subitem",this).hide();
+	});
+	
+	$("#carousel").jcarousel();
+	
+	$('#slides').cycle({
+		fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+	});
+	
+	$('.fancybox').fancybox();
+	
+});
+</script>
+
+<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.0.6" media="screen" />
+	
+	
+</head>
+<body class="logistics">
+
+    <!--start container-->
+    <div id="container">
+    <!--start header-->
+    <header>
+		<div class="container">
+			<div class="logo"><img src="images/logo.png" alt="SMS" /></div>
+			<div class="links">
+				<ul>
+					<li><p><a href="company.html">Company</a> |</p></p></li>
+					<li><p><a href="contact.html">Contact</a></p></p></li>
+				</ul>
+			</div>
+		</div>
+      <!--end header-->
+	</header>
+	
+	<div id="navigation">
+	<nav>
+		<ul id="menu">
+			<li><a href="index.html"><span class="parent">Home</span></a>
+			</li>
+			<li><a href="profile.html"><span class="parent">Profile</span></a>
+		
+			</li>
+			
+			<li><a href="philosophy.html"><span class="parent">Our Philosophy</span></a>
+				
+			</li>
+			
+			<li><a href="productsandservices.html"><span class="parent">Products & Services</span></a>
+				<div class="subitem"><a href="airfreight.html"><span>Air Freight</span></a></div>
+				<div class="subitem"><a href="seafreight.html"><span>Sea Freight</span></a></div>
+				<div class="subitem"><a href="roadfreight.html"><span>Road Freight</span></a></div>
+				<div class="subitem"><a href="contractlogistics.html"><span>Contract Logistics</span></a></div>
+				<div class="subitem"><a href="projectlogistics.html"><span>Project Logistics</span></a></div>
+				<div class="subitem"><a href="eventlogistics.html"><span class="curved">Event Logistics</span></a></div>
+			</li>
+			
+			<li><a href="industries.html"><span class="parent">Industries</span></a>
+				
+			</li>
+			<li class="active last"><a href="specialcargo.html"><span class="parent">Special Cargo</span></a>
+				
+			</li>
+		</ul>
+	</nav>
+	</div>
+   
+   
+   <!--start holder-->
+   <div class="holder_content">
+     
+	 <div class="box_container">
+		<div class="box">
+			<h1 class="bold">Special Cargo</h1>
+			<p>
+			At SMS we have extensive airfreight experience with special cargo. Having only the best qualified staff in the industry all shipments are handled according to the IATA regulations to ensure your cargo reaches the destination safely and in a timely manner.
+			
+			</p>
+			<br/>
+			<h1 class="bold">Live Animals</h1>
+			<p>
+			We are also experienced in handling live animals by air. Such handling is taken care of by our IATA qualified staff, having years of experience in this filed.
+<br/><br/>
+The carriage of any live animals must comply with the respective IATA Live Animals Regulations, as well as the country of destination. These regulations specify the design elements of containers for the animals, documentation, labeling, and handling recommendation. 
+
+
+</p>
+<br/>
+		<h1 class="bold">Perishable Cargo</h1>
+		<p>
+		These are goods that will deteriorate over a given period of time, if exposed to a certain temperature. We handle the broadest range of perishables at any given time of day to ensure your shipment is delivered safely.
+</p>
+<br/>
+	<h1 class="bold">Dangerous Goods</h1>
+	<p>
+The preparation of such shipments for transport is of utmost importance be it by air road or sea. Our highly trained and licensed staff ensures that the acceptance, loading and handling of dangerous goods complies with international transport and established regulations. These regulations specify how the articles must by packed, marked, labeled, and documented.
+
+</p>
+	<br/>
+	<h1 class="bold">Valuables</h1>
+	<p>
+	Making your shipments available on time and safely is our highest priority.
+<br/><br/>
+The following are examples of shipments requiring security and surveillance services:
+<ul>
+	<li>Gold, Silver, Platinum group metals</li>
+	<li>Legal banknotes, traveler’s cheques, share coupons and stamps</li>
+	<li>Precious stones</li>
+	<li>Jewelry</li>
+</ul>
+</p>
+<br/>
+	<h1 class="bold">Other Cargo</h1>
+	<p>
+	There are endless types of cargoes which require different kind of handling, lead times, and service levels, such as Pharmaceuticals, High Value Electronics, and Diagnostic specimens.
+	<br/><br/>
+At SMS Logistics we guarantee that the appropriate service is used to meet your requirements.
+	</p>
+		</div>
+	 </div>
+		 
+		 
+		 
+			 
+
+		 
+   </div>
+   <!--end holder-->
+   </div>
+   <!--end container-->
+   <!--start footer-->
+   <footer>
+		<div class="container">
+			<div class="address">
+				27 Birkirkara Hill, St Julian's<br/>
+				STJ1143, Malta<br/>
+				+356 2577 0000<br/>
+				info@sms.com.mt<br/>
+				www.sms.com.mt<br/>
+			</div>
+			
+			<div class="motto">
+				Committed to Quality
+			</div>
+			
+			<div class="logo">
+				<img src="images/logosmall.png" />
+			</div>
+		</div>
+   </footer>
+   <!--end footer-->
+
+  </body>
+</html>

@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>SMS</title>
+<link rel="icon" href="images/favicon.gif" type="image/x-icon"/>
+ <!--[if lt IE 9]>
+ <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+ <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+
+  <![endif]-->
+<link rel="shortcut icon" href="images/favicon.gif" type="image/x-icon"/> 
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="js/jquery.jcarousel.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/skins/tango/skin.css"/>
+<!-- include Cycle plugin -->
+<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$("nav ul li").hover(function(){
+		$(".subitem",this).show();
+	},function(){
+		$(".subitem",this).hide();
+	});
+	
+	$("#carousel").jcarousel();
+	
+	$('#slides').cycle({
+		fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+	});
+	
+	$('.fancybox').fancybox();
+	
+});
+</script>
+
+<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.0.6" media="screen" />
+	
+	
+</head>
+<body class="logistics">
+
+    <!--start container-->
+    <div id="container">
+    <!--start header-->
+    <header>
+		<div class="container">
+			<div class="logo"><img src="images/logo.png" alt="SMS" /></div>
+			<div class="links">
+				<ul>
+					<li><p><a href="company.html">Company</a> |</p></p></li>
+					<li><p><a href="contact.html">Contact</a></p></p></li>
+				</ul>
+			</div>
+		</div>
+      <!--end header-->
+	</header>
+	
+	<div id="navigation">
+	<nav>
+		<ul id="menu">
+			<li><a href="index.html"><span class="parent">Home</span></a>
+			</li>
+			<li><a href="profile.html"><span class="parent">Profile</span></a>
+		
+			</li>
+			
+			<li><a href="philosophy.html"><span class="parent">Our Philosophy</span></a>
+				
+			</li>
+			
+			<li class="active"><a href="productsandservices.html"><span class="parent">Products & Services</span></a>
+				<div class="subitem"><a href="airfreight.html"><span>Air Freight</span></a></div>
+				<div class="subitem"><a href="seafreight.html"><span>Sea Freight</span></a></div>
+				<div class="subitem"><a href="roadfreight.html"><span>Road Freight</span></a></div>
+				<div class="subitem"><a href="contractlogistics.html"><span>Contract Logistics</span></a></div>
+				<div class="subitem"><a href="projectlogistics.html"><span>Project Logistics</span></a></div>
+				<div class="subitem"><a href="eventlogistics.html"><span class="curved">Event Logistics</span></a></div>
+			</li>
+			
+			<li><a href="industries.html"><span class="parent">Industries</span></a>
+				
+			</li>
+			<li class="last"><a href="specialcargo.html"><span class="parent">Special Cargo</span></a>
+				
+			</li>
+		</ul>
+	</nav>
+	</div>
+   
+   
+   <!--start holder-->
+   <div class="holder_content">
+     
+	 <div class="box_container">
+		<div class="box">
+			<h1 class="bold">Event Logistics</h1>
+			<p>
+Logistics for promotional and cultural events, exhibitions and trade fairs 
+<br/><br/>
+SMS Logistics also specializes in event logistics; Transport of orchestras and concert equipment, circus equipment and animals, ballet companies, dance troupes, TV and cinema crews and their equipment, prototype cars for motor shows, exhibition stands and materials. These are some of the types of assignments taken care of by SMS Logistics. Perfect planning, well-meshed cooperation and perfect timing and most importantly TEAM WORK all make it possible for SMS Logistics to offer an unbeatable service. 
+
+</p>
+
+		
+		</div>
+	 </div>
+		 
+		 
+		 
+			 
+
+		 
+   </div>
+   <!--end holder-->
+   </div>
+   <!--end container-->
+   <!--start footer-->
+   <footer>
+		<div class="container">
+			<div class="address">
+				27 Birkirkara Hill, St Julian's<br/>
+				STJ1143, Malta<br/>
+				+356 2577 0000<br/>
+				info@sms.com.mt<br/>
+				www.sms.com.mt<br/>
+			</div>
+			
+			<div class="motto">
+				Committed to Quality
+			</div>
+			
+			<div class="logo">
+				<img src="images/logosmall.png" />
+			</div>
+		</div>
+   </footer>
+   <!--end footer-->
+
+  </body>
+</html>
